@@ -207,8 +207,22 @@ ul li {
 
 /* FOOTER */
 
+footer {
+  background-color: gray;
+  padding: 2rem;
+}
+
 footer img {
   width: 8rem;
+}
+
+footer div {
+  display: flex;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (min-width: 800px) {
