@@ -1,6 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.desktop_nav {
+  display: flex;
+  justify-content: end;
+}
+
+/* HIDDEN ELEMENTS */
 .nav_dropdown {
   display: none;
 }
+
+.mobile_nav {
+  display: none;
+}
+
+/* MOBILE */
 
 @media (max-width: 800px) {
   .desktop_nav {
