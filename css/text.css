@@ -47,3 +47,7 @@ p.tagline {
   letter-spacing: 0.15rem;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
