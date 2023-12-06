@@ -113,7 +113,7 @@ main {
   .info_box {
     position: absolute;
     bottom: -2%;
-    right: 35%;
+    right: 18%;
   }
 }
 
@@ -135,6 +135,7 @@ main {
 .info_box p {
   color: white;
   margin: 2rem;
+  padding: 2rem;
 }
 
 .info_box {
