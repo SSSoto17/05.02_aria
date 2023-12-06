@@ -35,10 +35,14 @@ h4 {
 p {
   font-family: "Varela", sans-serif;
   font-weight: 400;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   color: var(--main-text);
   margin: 0 0 1rem;
   max-width: 68ch;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 p.tagline {

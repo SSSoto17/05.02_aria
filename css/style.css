@@ -13,6 +13,22 @@
   bottom: 2rem;
 }
 
+#companies ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#companies ul li {
+  font-size: 2rem;
+}
+
+#principles {
+  background-color: var(--tertiary-bg);
+  padding: 2rem 12rem;
+}
+
 @media (min-width: 800px) {
   /* INDEX */
 
@@ -23,12 +39,7 @@
   #hero > div > div {
     display: flex;
     justify-content: flex-end;
-  }
-
-  #companies ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 3rem;
   }
 
   .product_card {
