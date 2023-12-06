@@ -101,22 +101,37 @@
     margin: 2rem 0 2rem 0;
   }
 
-  /*---- TIL STYLE ---*/
   #owner {
     position: relative;
-    background-color: var(--tertiary-bg);
   }
 
   .info_box {
     position: absolute;
     bottom: -2%;
     right: 35%;
-    background-color: var(--main-bg);
-    max-width: 65ch;
-    padding: 3rem;
   }
+}
 
-  .info_box p {
-    color: white;
-  }
+/*---- TIL STYLE ---*/
+
+#owner {
+  background-color: var(--tertiary-bg);
+}
+
+#owner h2 {
+  font-size: 2rem;
+}
+
+#owner h2,
+p {
+  padding: 2rem;
+}
+
+.info_box p {
+  color: white;
+}
+
+.info_box {
+  background-color: var(--main-bg);
+  padding: 2rem;
 }
