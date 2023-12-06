@@ -8,6 +8,11 @@ nav {
 .desktop_nav {
   display: flex;
   justify-content: end;
+  gap: 2rem;
+}
+
+.desktop_nav li {
+  font-size: 1.2rem;
 }
 
 /* HIDDEN ELEMENTS */
