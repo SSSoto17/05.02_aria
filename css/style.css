@@ -13,6 +13,10 @@
   bottom: 2rem;
 }
 
+#companies {
+  padding: 1.5rem 1rem 3rem;
+}
+
 #companies ul {
   display: flex;
   justify-content: space-around;
@@ -27,6 +31,14 @@
 #principles {
   background-color: var(--tertiary-bg);
   padding: 2rem 12rem;
+}
+
+#principles h3 {
+  text-align: center;
+}
+
+#principles img {
+  height: 6rem;
 }
 
 @media (min-width: 800px) {
