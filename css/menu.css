@@ -1,8 +1,16 @@
 nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 5rem;
 }
 
 .desktop_nav {

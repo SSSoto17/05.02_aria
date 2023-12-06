@@ -4,7 +4,7 @@
   position: relative;
   background-image: url(/dummy_imgs/COLOURBOX31158476.jpg);
   background-size: cover;
-  height: 500px;
+  height: 550px;
   padding: 1rem;
 }
 
@@ -14,7 +14,7 @@
 }
 
 #companies {
-  padding: 1.5rem 1rem 3rem;
+  padding: 2rem 1rem 3rem;
 }
 
 #companies ul {
