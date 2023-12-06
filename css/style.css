@@ -6,6 +6,13 @@
   aspect-ratio: 16/9;
 }
 
+@media (min-width: 800px) {
+  #kontakt_org {
+    background-color: var(--tertiary-bg);
+    padding: 5rem;
+  }
+}
+
 /*--- INDEX ---*/
 #hero {
   position: relative;
