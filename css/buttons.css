@@ -25,5 +25,7 @@
 .btn_nav {
   background-color: var(--secondary-bg);
   border-radius: 0;
-  padding: 0.5rem 2rem 0.5rem 2rem;
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  color: white;
 }
