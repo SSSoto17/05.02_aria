@@ -12,6 +12,10 @@ nav {
 }
 
 .desktop_nav li {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.15rem;
+  margin: 0;
   font-size: 1.2rem;
 }
 
