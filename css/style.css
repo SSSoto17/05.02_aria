@@ -18,8 +18,9 @@
 }
 
 #companies ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /*--- PRODUCTS_ORG ---*/
