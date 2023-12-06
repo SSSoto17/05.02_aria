@@ -4,14 +4,11 @@
   position: relative;
   background-image: url(/dummy_imgs/COLOURBOX31158476.jpg);
   background-size: cover;
+  height: 500px;
 }
 
 @media (min-width: 800px) {
   /* INDEX */
-
-  #hero {
-    height: 500px;
-  }
 
   #hero > div {
     position: absolute;
