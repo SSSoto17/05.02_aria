@@ -3,6 +3,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 10px;
+  display: inline;
 }
 
 .btn_cta {
@@ -17,5 +18,5 @@
 .btn_owner {
   background-color: var(--main-text);
   border-radius: 0px;
-  padding: 2rem;
+  padding: 1rem;
 }
