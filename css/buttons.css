@@ -10,7 +10,7 @@
 }
 
 .btn_ghost {
-  border: 1px solid;
+  border: 1.5px solid;
   border-color: var(--accent-color);
   padding: 0.45rem;
 }
