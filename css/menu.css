@@ -1,0 +1,9 @@
+.nav_dropdown {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .desktop_nav {
+    display: none;
+  }
+}
