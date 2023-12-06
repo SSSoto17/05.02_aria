@@ -1,0 +1,33 @@
+/* TEXT */
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 3.25rem;
+  color: var(--main-bg);
+  margin: 0.25rem 0 0.75rem;
+}
+
+h2 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--main-bg);
+  margin: 0.15rem 0 1rem;
+}
+
+h3 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--main-text);
+  margin: 0.15rem 0 1rem;
+}
+
+p {
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: var(--main-text);
+  margin: 0 0 1rem;
+}
