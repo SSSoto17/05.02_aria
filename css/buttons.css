@@ -16,7 +16,14 @@
 }
 
 .btn_owner {
-  background-color: var(--main-text);
+  background-color: black;
   border-radius: 0px;
-  padding: 1rem;
+  color: var(--tertiary-bg);
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.btn_nav {
+  background-color: var(--secondary-bg);
+  border-radius: 0;
+  padding: 0.5rem 2rem 0.5rem 2rem;
 }
