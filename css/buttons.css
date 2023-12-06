@@ -8,12 +8,14 @@
 
 .btn_cta {
   background-color: var(--accent-color);
+  color: white;
 }
 
 .btn_ghost {
   border: 1.5px solid;
   border-color: var(--accent-color);
   padding: 0.45rem;
+  color: var(--accent-color);
 }
 
 .btn_owner {
@@ -21,6 +23,7 @@
   border-radius: 0px;
   color: var(--tertiary-bg);
   padding: 1rem 0.5rem 1rem 0.5rem;
+  margin-left: 2rem;
 }
 
 .btn_nav {

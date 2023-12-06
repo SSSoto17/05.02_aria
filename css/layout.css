@@ -9,6 +9,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     position: relative;
+    padding: 0;
   }
 
   main > * {
@@ -124,10 +125,16 @@ main {
 
 #owner h2 {
   font-size: 2rem;
+  margin: 2rem;
+}
+
+#owner p {
+  margin: 2rem;
 }
 
 .info_box p {
   color: white;
+  margin: 2rem;
 }
 
 .info_box {
