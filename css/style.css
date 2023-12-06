@@ -5,20 +5,24 @@
   background-image: url(/dummy_imgs/COLOURBOX31158476.jpg);
   background-size: cover;
   height: 500px;
+  padding: 1rem;
+}
+
+#hero > div {
+  position: absolute;
+  bottom: 2rem;
 }
 
 @media (min-width: 800px) {
   /* INDEX */
 
   #hero > div {
-    position: absolute;
-    top: 30%;
-    left: 0;
+    left: 5rem;
   }
 
   #hero > div > div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
   }
 
   #companies ul {
