@@ -9,6 +9,10 @@ nav {
   z-index: 1000;
 }
 
+.logo {
+  margin-bottom: 0;
+}
+
 .logo img {
   height: 5rem;
 }
@@ -16,7 +20,8 @@ nav {
 .desktop_nav {
   display: flex;
   justify-content: end;
-  gap: 2rem;
+  align-items: center;
+  gap: 4rem;
 }
 
 .desktop_nav li {
@@ -25,6 +30,10 @@ nav {
   letter-spacing: 0.15rem;
   margin: 0;
   font-size: 1.2rem;
+}
+
+.dropdown_trigger {
+  cursor: pointer;
 }
 
 /* HIDDEN ELEMENTS */

@@ -1,3 +1,104 @@
+/* TEXT */
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 3.25rem;
+  color: var(--main-bg);
+  margin: 0.25rem 0 0.75rem;
+}
+
+h2 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--main-bg);
+  margin: 0.15rem 0 1rem;
+}
+
+h3 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--main-text);
+  margin: 0.15rem 0 1rem;
+}
+
+h4 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--main-text);
+  margin: 0.15rem 0 1rem;
+}
+
+p {
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: var(--main-text);
+  margin: 0 0 1rem;
+  max-width: 68ch;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+p.tagline {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* BUTTONS */
+
+.btn {
+  font-family: "varela", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  width: 150px;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.btn_nav {
+  font-family: "brandon-grotesque", sans-serif;
+  background-color: var(--secondary-bg);
+  border-radius: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.btn_cta {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.btn_ghost {
+  color: var(--accent-color);
+  border: 3px solid var(--accent-color);
+}
+
+.btn_owner {
+  color: white;
+  background-color: black;
+  border-radius: 0;
+}
+
 /* INDEX */
 
 #hero {
@@ -17,9 +118,13 @@
   padding: 2rem 1rem 3rem;
 }
 
+#companies h4 {
+  text-align: center;
+}
+
 #companies ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -60,6 +165,52 @@
   background-color: var(--main-bg);
 }
 
+#owner {
+  background-color: var(--tertiary-bg);
+}
+
+#owner img {
+  height: 500px;
+  object-fit: cover;
+}
+
+#owner > div {
+  padding: 2rem;
+}
+
+#owner h2 {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.info_box {
+  background-color: var(--main-bg);
+}
+
+.info_box p {
+  color: white;
+}
+
+#desktop_contact {
+  display: none;
+}
+
+#mobile_contact {
+  text-align: center;
+}
+
+#mobile_contact h1 {
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+/* FOOTER */
+
+footer img {
+  width: 8rem;
+}
+
 @media (min-width: 800px) {
   /* INDEX */
 
@@ -83,6 +234,37 @@
 
   .card_blue {
     box-shadow: -10px 5px 1px var(--tertiary-bg);
+  }
+
+  #owner {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 5rem;
+  }
+
+  #owner img {
+    height: 600px;
+  }
+
+  #owner h2 {
+    margin-top: 6rem;
+  }
+
+  .info_box {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 20%;
+    width: 600px;
+  }
+
+  #desktop_contact {
+    display: block;
+    background-color: gray;
+  }
+
+  #mobile_contact {
+    display: none;
   }
 
   /* PRODUCTS_ORG */

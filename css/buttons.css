@@ -1,9 +1,20 @@
 .btn {
+  font-family: "varela", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  width: 150px;
+  text-align: center;
   padding: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
   border-radius: 10px;
   display: inline-block;
+}
+
+.btn_nav {
+  font-family: "brandon-grotesque", sans-serif;
+  background-color: var(--secondary-bg);
+  border-radius: 0;
+  text-transform: uppercase;
+  color: white;
 }
 
 .btn_cta {
@@ -12,24 +23,12 @@
 }
 
 .btn_ghost {
-  border: 1.5px solid;
-  border-color: var(--accent-color);
-  padding: 0.45rem;
   color: var(--accent-color);
+  border: 3px solid var(--accent-color);
 }
 
 .btn_owner {
-  background-color: black;
-  border-radius: 0px;
-  color: var(--tertiary-bg);
-  padding: 1rem 0.5rem 1rem 0.5rem;
-  margin-left: 2rem;
-}
-
-.btn_nav {
-  background-color: var(--secondary-bg);
-  border-radius: 0;
-  padding: 0.5rem 2rem;
-  text-transform: uppercase;
   color: white;
+  background-color: black;
+  border-radius: 0;
 }

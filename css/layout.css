@@ -2,6 +2,14 @@ main {
   padding: 1rem;
 }
 
+div {
+  margin-bottom: 2rem;
+}
+
+div:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: 800px) {
   /* GLOBAL */
 
@@ -62,17 +70,6 @@ main {
     gap: 1rem;
   }
 
-  /*--- INDEX ---*/
-
-  #companies ul {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #companies h4 {
-    text-align: center;
-  }
-
   /* PRODUCTS_ORG */
 
   #img1_org {
@@ -105,39 +102,4 @@ main {
     justify-content: space-evenly;
     margin: 2rem 0 2rem 0;
   }
-
-  #owner {
-    position: relative;
-  }
-
-  .info_box {
-    position: absolute;
-    bottom: -2%;
-    right: 18%;
-  }
-}
-
-/*---- TIL STYLE ---*/
-
-#owner {
-  background-color: var(--tertiary-bg);
-}
-
-#owner h2 {
-  font-size: 2rem;
-  margin: 2rem;
-}
-
-#owner p {
-  margin: 2rem;
-}
-
-.info_box p {
-  color: white;
-  margin: 2rem;
-  padding: 2rem;
-}
-
-.info_box {
-  background-color: var(--main-bg);
 }
