@@ -55,6 +55,7 @@ p.tagline {
 }
 
 a {
+  font-family: "Varela", sans-serif;
   text-decoration: none;
 }
 
@@ -197,6 +198,7 @@ ul li {
 
 #mobile_contact {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 #mobile_contact h1 {
@@ -208,21 +210,56 @@ ul li {
 /* FOOTER */
 
 footer {
-  background-color: gray;
-  padding: 2rem;
+  padding: 0 1rem;
+}
+
+footer div {
+  margin-bottom: 1rem;
 }
 
 footer img {
   width: 8rem;
-}
-
-footer div {
-  display: flex;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 footer ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+}
+
+footer a {
+  color: black;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.socials {
+  margin-top: 1rem;
+}
+
+.socials a {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.copyright {
+  border-top: 1px solid black;
+  color: black;
+  padding: 1rem 0;
+}
+
+.copyright a {
+  text-decoration: underline;
+}
+
+.copyright p {
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 @media (min-width: 800px) {
@@ -292,5 +329,45 @@ footer ul {
   #kontakt_org {
     background-color: var(--tertiary-bg);
     padding: 5rem;
+  }
+
+  /* FOOTER */
+
+  footer {
+    padding: 0 3rem;
+  }
+
+  footer > div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+  }
+
+  .footer_nav {
+    align-self: center;
+  }
+
+  footer a {
+    font-size: 1.15rem;
+  }
+
+  .socials {
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+  }
+
+  .copyright {
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .copyright p {
+    margin-top: 0;
+  }
+
+  .copyright a {
+    font-size: 1rem;
   }
 }
