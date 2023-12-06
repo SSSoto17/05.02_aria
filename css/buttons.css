@@ -1,0 +1,21 @@
+.btn {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+}
+
+.btn_cta {
+  background-color: var(--accent-color);
+}
+
+.btn_ghost {
+  border: 2px solid;
+  border-color: var(--accent-color);
+}
+
+.btn_owner {
+  background-color: var(--main-text);
+  border-radius: 0px;
+  padding: 2rem;
+}
