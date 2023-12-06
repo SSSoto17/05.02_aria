@@ -57,6 +57,7 @@ p.tagline {
 a {
   font-family: "Varela", sans-serif;
   text-decoration: none;
+  color: var(--main-text);
 }
 
 ul li {
@@ -108,6 +109,7 @@ ul li {
   background-size: cover;
   height: 550px;
   padding: 1rem;
+  margin-bottom: 0;
 }
 
 #hero > div {
