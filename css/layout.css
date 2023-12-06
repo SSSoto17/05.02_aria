@@ -100,4 +100,23 @@
     justify-content: space-evenly;
     margin: 2rem 0 2rem 0;
   }
+
+  /*---- TIL STYLE ---*/
+  #owner {
+    position: relative;
+    background-color: var(--tertiary-bg);
+  }
+
+  .info_box {
+    position: absolute;
+    bottom: -2%;
+    right: 35%;
+    background-color: var(--main-bg);
+    max-width: 65ch;
+    padding: 3rem;
+  }
+
+  .info_box p {
+    color: white;
+  }
 }
