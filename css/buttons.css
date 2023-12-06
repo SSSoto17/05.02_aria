@@ -3,6 +3,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 10px;
+  display: inline-block;
 }
 
 .btn_cta {
