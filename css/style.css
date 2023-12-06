@@ -21,20 +21,19 @@
   aspect-ratio: 16/9;
 }
 
-#hero div {
+#hero > div {
   position: absolute;
   top: 30%;
   left: 0;
 }
 
-#hero p {
-  font-size: 10px;
+#hero > div > div {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-#hero div > div {
-  position: absolute;
-  top: 60%;
-  left: 0;
+#hero p {
+  font-size: 10px;
 }
 
 a {
