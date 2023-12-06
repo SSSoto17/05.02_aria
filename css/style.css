@@ -1,18 +1,3 @@
-/*--- PRODUCTS_ORG ---*/
-#hero_org {
-  position: relative;
-  background-image: url(/dummy_imgs/austin-distel-rxpThOwuVgE-unsplash.jpg);
-  background-size: cover;
-  aspect-ratio: 16/9;
-}
-
-@media (min-width: 800px) {
-  #kontakt_org {
-    background-color: var(--tertiary-bg);
-    padding: 5rem;
-  }
-}
-
 /*--- INDEX ---*/
 #hero {
   position: relative;
@@ -32,8 +17,24 @@
   justify-content: space-evenly;
 }
 
-#hero p {
-  font-size: 10px;
+#companies ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/*--- PRODUCTS_ORG ---*/
+#hero_org {
+  position: relative;
+  background-image: url(/dummy_imgs/austin-distel-rxpThOwuVgE-unsplash.jpg);
+  background-size: cover;
+  aspect-ratio: 16/9;
+}
+
+@media (min-width: 800px) {
+  #kontakt_org {
+    background-color: var(--tertiary-bg);
+    padding: 5rem;
+  }
 }
 
 a {
