@@ -30,4 +30,8 @@ nav {
   .desktop_nav {
     display: none;
   }
+
+  .hide {
+    display: none;
+  }
 }

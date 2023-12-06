@@ -23,6 +23,27 @@
   flex-wrap: wrap;
 }
 
+.product_card {
+  padding: 2rem;
+  margin: 1.5rem;
+}
+
+.product_card h3,
+.product_card p,
+.product_card a {
+  color: white;
+}
+
+.card_pink {
+  background-color: var(--accent-color);
+  box-shadow: 10px 5px 1px var(--secondary-bg);
+}
+
+.card_blue {
+  background-color: var(--main-bg);
+  box-shadow: -10px 5px 1px var(--tertiary-bg);
+}
+
 /*--- PRODUCTS_ORG ---*/
 #hero_org {
   position: relative;
