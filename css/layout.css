@@ -57,6 +57,17 @@
     gap: 1rem;
   }
 
+  /*--- INDEX ---*/
+
+  #companies ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #companies h4 {
+    text-align: center;
+  }
+
   /* PRODUCTS_ORG */
 
   #img1_org {
@@ -88,16 +99,5 @@
     display: flex;
     justify-content: space-evenly;
     margin: 2rem 0 2rem 0;
-  }
-
-  /*--- INDEX ---*/
-
-  .companies_logo {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #companies h4 {
-    text-align: center;
   }
 }
