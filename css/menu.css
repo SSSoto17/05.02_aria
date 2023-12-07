@@ -76,10 +76,6 @@ nav {
   display: block;
 }
 
-.dropdown_content:hover .dropdown_content {
-  display: block;
-}
-
 .mobile_nav {
   display: none;
 }
