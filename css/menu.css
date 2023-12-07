@@ -37,18 +37,23 @@ nav {
 }
 
 .dropdown_content {
-  display: none;
+  /* display: none; */
   width: 350px;
   background-color: white;
   position: absolute;
   left: -4rem;
-  padding: 1rem;
-  border: 1px solid var(--sub-color);
+  padding: 0 1rem;
+  border: 0 solid var(--sub-color);
   border-radius: 5px;
+  max-height: 0;
+  overflow: hidden;
+  transition: padding 0.1s, max-height 0.5s, border 0.5s ease-in-out;
 }
 
 .dropdown_content li {
   padding: 1rem 0;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .dropdown_content li h6 {
@@ -74,6 +79,13 @@ nav {
 
 .dropdown:hover .dropdown_content {
   display: block;
+  max-height: 550px;
+  padding: 1rem;
+  border: 1px solid var(--sub-color);
+}
+
+.dropdown:hover .dropdown_content li {
+  opacity: 1;
 }
 
 .mobile_nav {

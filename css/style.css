@@ -75,6 +75,11 @@ ul li {
   padding: 0.5rem;
   border-radius: 10px;
   display: inline-block;
+  transition: scale 0.25s;
+}
+
+.btn:hover {
+  scale: 1.05;
 }
 
 .btn_nav {
@@ -91,8 +96,8 @@ ul li {
 }
 
 .btn_ghost {
-  color: var(--accent-color);
-  border: 3px solid var(--accent-color);
+  color: var(--main-bg);
+  border: 3px solid var(--main-bg);
 }
 
 .btn_owner {
@@ -282,15 +287,34 @@ footer a {
 
   .product_card {
     max-width: 1000px;
+    height: 300px;
     position: relative;
+    transition: 0.25s;
+  }
+
+  .product_card .btn {
+    margin-top: 1rem;
+    width: auto;
+    padding: 0;
+  }
+
+  .product_card:hover {
+    scale: 1.025;
+  }
+
+  .product_card .btn:hover {
+    letter-spacing: 0.15rem;
   }
 
   .product_card img {
+    position: absolute;
+    max-width: 450px;
     height: 100%;
     object-fit: cover;
   }
 
   .card_pink::after {
+    display: block;
     content: "";
     width: 75%;
     height: 100%;
@@ -299,6 +323,7 @@ footer a {
     bottom: 0;
     box-shadow: 30px 15px 1px var(--secondary-bg);
     border-radius: 5px;
+    z-index: -1;
   }
 
   .card_blue {
