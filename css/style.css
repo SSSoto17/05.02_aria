@@ -313,7 +313,73 @@ footer a {
 
   #desktop_contact {
     display: block;
-    background-color: gray;
+    position: relative;
+    height: 700px;
+    background-image: url(../dummy_imgs/austin-distel-h1RW-NFtUyc-unsplash.jpg);
+    background-size: cover;
+  }
+
+  .index_contact {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background-color: white;
+    width: 500px;
+    padding: 1rem;
+  }
+
+  .index_contact h1 {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+  }
+
+  form {
+    width: 75%;
+    margin: auto;
+  }
+
+  form > div {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  label {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    font-family: "varela", sans-serif;
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  #message {
+    height: 150px;
+  }
+
+  .terms {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    font-size: 0.75rem;
+  }
+
+  #terms {
+    width: auto;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 150px;
+    margin: auto;
+    border: 0;
+    cursor: pointer;
   }
 
   #mobile_contact {
