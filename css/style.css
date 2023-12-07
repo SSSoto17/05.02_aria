@@ -282,6 +282,7 @@ footer a {
 
   .product_card {
     max-width: 1000px;
+    position: relative;
   }
 
   .product_card img {
@@ -289,13 +290,30 @@ footer a {
     object-fit: cover;
   }
 
-  .card_pink {
-    box-shadow: 10px 5px 1px var(--secondary-bg);
+  .card_pink::after {
+    content: "";
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    box-shadow: 30px 15px 1px var(--secondary-bg);
+    border-radius: 5px;
   }
 
   .card_blue {
-    box-shadow: -10px 5px 1px var(--tertiary-bg);
     margin-left: auto;
+  }
+  .card_blue::after {
+    content: "";
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-shadow: -30px 15px 1px var(--tertiary-bg);
+    border-radius: 5px;
+    z-index: -1;
   }
 
   #owner {
