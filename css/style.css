@@ -150,8 +150,11 @@ ul li {
 }
 
 .product_card {
-  padding: 1rem;
   border-radius: 5px;
+}
+
+.product_card > div {
+  padding: 1rem;
 }
 
 .product_card h3,
@@ -279,6 +282,7 @@ footer a {
 
   .product_card {
     padding: 2rem;
+    max-width: 1000px;
   }
 
   .card_pink {
@@ -287,6 +291,7 @@ footer a {
 
   .card_blue {
     box-shadow: -10px 5px 1px var(--tertiary-bg);
+    margin-left: auto;
   }
 
   #owner {
