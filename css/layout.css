@@ -65,6 +65,12 @@ div:last-child {
     gap: 1rem;
   }
 
+  .grid_4-1-2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr;
+    gap: 1rem;
+  }
+
   /* PRODUCTS_ORG */
 
   #img1_org {

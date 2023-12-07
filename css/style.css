@@ -445,6 +445,75 @@ footer a {
     display: none;
   }
 
+  /* ABOUT */
+
+  #owner_profile {
+    position: relative;
+    background-color: var(--tertiary-bg);
+    height: 700px;
+    border-radius: 5px;
+  }
+
+  #owner_profile img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    max-width: 600px;
+    max-height: 700px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  #owner_profile > div:last-child {
+    padding: 2rem;
+  }
+
+  #owner_profile h1 {
+    color: var(--main-text);
+    text-transform: uppercase;
+    font-size: 3.5rem;
+  }
+
+  #aria_profile {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  #aria_profile .grid_2-1 {
+    grid-row: 1/3 span;
+  }
+
+  #aria_profile > div:first-child {
+    background-color: var(--accent-color);
+    padding: 1.5rem;
+    padding-right: 50px;
+    border-radius: 5px;
+    grid-column: 1/2 span;
+    grid-row: 1;
+    box-shadow: 30px 15px 0 var(--secondary-bg);
+  }
+
+  #aria_profile > div:last-child {
+    grid-column: 2/3 span;
+    grid-row: 1;
+  }
+
+  #aria_profile h1,
+  #aria_profile p {
+    color: white;
+    max-width: 80%;
+  }
+
+  #aria_profile img {
+    max-height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  #aria_profile img:last-child {
+    margin-bottom: 0;
+  }
+
   /* PRODUCTS_ORG */
   #hero_org {
     position: relative;
