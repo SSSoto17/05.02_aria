@@ -54,14 +54,14 @@ div:last-child {
 
   .grid_1-2 {
     display: grid;
-    grid-template-columns: 2fr 3fr;
-    gap: 2rem;
+    grid-template-columns: 4fr 5fr;
+    gap: 0.5rem;
   }
 
   .grid_2-1 {
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 2rem;
+    grid-template-columns: 5fr 4fr;
+    gap: 0.5rem;
   }
 
   .grid_1-1-3 {

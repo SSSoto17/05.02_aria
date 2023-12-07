@@ -154,7 +154,7 @@ ul li {
 }
 
 .product_card > div {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .product_card h3,
@@ -281,8 +281,12 @@ footer a {
   }
 
   .product_card {
-    padding: 2rem;
     max-width: 1000px;
+  }
+
+  .product_card img {
+    height: 100%;
+    object-fit: cover;
   }
 
   .card_pink {
