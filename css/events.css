@@ -1,0 +1,46 @@
+#events_container > div {
+  margin-bottom: 0;
+}
+
+#events_container > div h2 {
+  margin: auto;
+  margin-bottom: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+}
+
+.date {
+  width: 100px;
+}
+
+#events_container > div p {
+  margin-bottom: 2rem;
+}
+
+.timeline {
+  position: relative;
+  margin: 0;
+}
+
+.timeline > div {
+  margin: 0;
+}
+
+.event_point {
+  position: absolute;
+  top: 35%;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border: 8px solid white;
+  border-radius: 100%;
+  margin: -13px;
+}
+
+.line {
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background-color: black;
+  left: 50%;
+}

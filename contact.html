@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/text.css">
-    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://use.typekit.net/vik1lxa.css">
     <script src="https://kit.fontawesome.com/67f49ad00c.js" crossorigin="anonymous"></script>
     <style>
@@ -71,8 +70,8 @@
         </nav>
     </header>
     <main>
-        <div class="grid_1-1">
-            <div>
+        <div class="grid_2-1 contact_bg breakout_container">
+            <div id="contact_page">
                 <p class="tagline">Kom i kontakt med mig</p>
                 <h1>Kontakt</h1>
                 <p>Har du spørgsmål eller ønsker mere information? Vi er her for at hjælpe. Kontakt os direkte via vores
@@ -84,24 +83,26 @@
                     <li><i class="fa-solid fa-location-dot"></i> Adresse</li>
                 </ul>
             </div>
-            <div class="kontakt">
+            <div class="contact">
                 <form name="contact" netlify>
                     <label for="name">Navn
                         <input type="text" name="name" id="name">
                     </label>
-                    <label for="email">E-mail
-                        <input type="email" name="email" id="email">
-                    </label>
-                    <label for="phone">Telefonnummer
-                        <input type="tel" name="tel_no" id="phone">
-                    </label>
+                    <div>
+                        <label for="email">E-mail
+                            <input type="email" name="email" id="email">
+                        </label>
+                        <label for="phone">Telefonnummer
+                            <input type="tel" name="tel_no" id="phone">
+                        </label>
+                    </div>
                     <label for="message">Besked
-                        <input type="text" name="message" id="message">
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     </label>
-                    <label for="terms"> Jeg accepterer betingelserne
-                        <input type="checkbox" name="termscond" id="terms">
+                    <label for="terms" class="terms"><input type="checkbox" name="termscond" id="terms">Jeg accepterer
+                        betingelserne
                     </label>
-                    <button>Indsend</button>
+                    <button>Send</button>
                 </form>
             </div>
         </div>
