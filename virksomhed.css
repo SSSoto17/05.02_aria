@@ -1,0 +1,5 @@
+@media (min-width: 800px) {
+  .organisation {
+    background: linear-gradient(to right, var(--secondary-bg) 50%, var(--tertiary-bg) 50%);
+  }
+}
