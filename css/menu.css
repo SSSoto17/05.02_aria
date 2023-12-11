@@ -13,12 +13,11 @@ nav {
   z-index: 1000;
 }
 
-.logo {
-  margin-bottom: 0;
-}
-
-.logo img {
-  height: 5rem;
+#logo {
+  background-image: url(../svg/logohvidb.svg);
+  aspect-ratio: 798.86 / 243.13;
+  width: 250px;
+  background-size: cover;
 }
 
 .desktop_nav {
@@ -105,5 +104,12 @@ nav {
 
   .hide {
     display: none;
+  }
+
+  #logo {
+    background-image: url(../svg/faviconsvg.svg);
+    aspect-ratio: 337 / 337;
+    width: 75px;
+    background-size: cover;
   }
 }
