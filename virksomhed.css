@@ -1,8 +1,8 @@
 @media (min-width: 800px) {
   .organisation {
-    background: linear-gradient(to right, var(--secondary-bg) 50%, var(--tertiary-bg) 50%);
+    /* background: linear-gradient(to right, var(--secondary-bg) 50%, var(--tertiary-bg) 50%);
     box-shadow: 5px 5px 10px #56565680;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; */
   }
   .organisation > div:first-child {
     max-width: 60ch;
@@ -13,15 +13,11 @@
     left: 32rem;
     max-height: 250px;
   }
-
-  .organisation:hover {
-    translate: 0.5% 0;
-  }
-
+  /* 
   #video_org {
     box-shadow: 30px 15px 1px var(--tertiary-bg);
     margin-bottom: 2rem;
-  }
+  } */
 }
 
 #hero_org > div {
@@ -30,7 +26,7 @@
 }
 
 .organisation {
-  background-color: var(--tertiary-bg);
+  /* background-color: var(--tertiary-bg); */
   padding: 1rem;
   border-radius: 5px;
   position: relative;
