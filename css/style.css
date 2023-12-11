@@ -351,6 +351,127 @@ video {
   margin: auto auto 2rem;
 }
 
+/* PRODUCT_ORG */
+
+#hero_org {
+  position: relative;
+  background-image: url(/dummy_imgs/austin-distel-rxpThOwuVgE-unsplash.jpg);
+  background-size: cover;
+  height: 450px;
+}
+
+#hero_org > div {
+  margin: 7rem auto 1rem;
+  width: 400px;
+  max-width: 72ch;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#hero_org h2 {
+  font-size: 1.7rem;
+}
+
+#org_intro h1 {
+  font-size: 2rem;
+}
+
+#org_intro > div:first-child {
+  padding-right: 2.5rem;
+}
+
+#org_intro > div:last-child {
+  position: relative;
+  display: none;
+}
+
+#video_org {
+  background-color: var(--accent-color);
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#video_org div {
+  padding: 1rem 2rem;
+  margin: 0;
+}
+
+#video_org h2,
+#video_org p {
+  color: white;
+}
+
+#video_org h2 {
+  font-size: 1.8rem;
+}
+
+#video_org video {
+  margin: 0;
+}
+
+#kontakt_org {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--tertiary-bg);
+  padding: 2rem;
+  margin: 4rem 0;
+}
+
+#kontakt_org > div {
+  margin: auto 0;
+}
+
+#kontakt_org h3 {
+  color: black;
+  font-family: "oswald", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+#kontakt_org .btn {
+  margin: auto 0;
+  background-color: black;
+  color: white;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  width: 150px;
+  border-radius: 0;
+}
+
+#testimonials {
+  margin-bottom: 2rem;
+}
+
+#testimonials,
+#testimonials div {
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#testimonials .fa-brands {
+  font-size: 3rem;
+  color: var(--secondary-bg);
+  margin-bottom: 2rem;
+}
+
+#testimonials .quote {
+  font-style: italic;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#testimonials p {
+  font-size: 1rem;
+  text-align: right;
+}
+
 /* EVENTS */
 
 #events_desc h1 {
@@ -648,6 +769,54 @@ footer a {
     margin: auto auto 2rem;
   }
 
+  /* PRODUCT_ORG */
+
+  #org_intro > div:last-child {
+    display: grid;
+    position: relative;
+    margin-top: 5rem;
+  }
+
+  #org_intro img {
+    height: 175px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  #img1_org {
+    grid-column: 1/2 span;
+    grid-row: 1/3 span;
+  }
+
+  #img2_org {
+    grid-column: 2/3 span;
+    grid-row: 2/4 span;
+    border: 3px solid white;
+  }
+
+  #bg_box {
+    position: absolute;
+    top: 45px;
+    left: 15%;
+    width: 60%;
+    height: 60%;
+    background-color: var(--tertiary-bg);
+    border-radius: 15px;
+    z-index: -1;
+  }
+
+  #hero_org > div {
+    margin: 0;
+    width: auto;
+    position: absolute;
+    right: 3rem;
+    bottom: 2rem;
+  }
+
+  #kontakt_org {
+    padding: 2rem 10rem;
+  }
+
   /* EVENTS */
 
   .timeline {
@@ -768,5 +937,11 @@ footer a {
 
   .copyright a {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #org_intro h1 {
+    font-size: 3.25rem;
   }
 }
