@@ -298,7 +298,7 @@ button {
 }
 
 #owner_profile img {
-  height: 500px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -351,17 +351,60 @@ video {
   margin: auto auto 2rem;
 }
 
-/* PRODUCTS_ORG */
-#hero_org {
-  position: relative;
-  background-image: url(/dummy_imgs/austin-distel-rxpThOwuVgE-unsplash.jpg);
-  background-size: cover;
-  height: 450px;
+/* EVENTS */
+
+#events_desc h1 {
+  font-size: 2.5rem;
 }
 
-#kontakt_org {
-  background-color: var(--tertiary-bg);
-  padding: 5rem;
+#events_desc .btn {
+  width: 125px;
+}
+
+#events_desc .btn_ghost {
+  color: var(--accent-color);
+  border: 3px solid var(--accent-color);
+}
+
+#events_container > div {
+  margin-bottom: 0;
+}
+
+#events_container h2 {
+  margin-bottom: 0;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+}
+
+#events_container p {
+  margin-bottom: 1rem;
+}
+
+.timeline {
+  display: none;
+}
+
+.date {
+  width: 200px;
+}
+
+/* CONTACT */
+
+#contact_page {
+  position: relative;
+  padding: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+#contact_page li {
+  font-family: "varela", sans-serif;
+  font-size: 1.1rem;
+  color: var(--main-bg);
+}
+
+.contact form {
+  width: 100%;
+  padding: 1.5rem;
 }
 
 /* FOOTER */
@@ -528,10 +571,14 @@ footer a {
   /* ABOUT */
 
   #owner_profile {
-    position: relative;
     border-radius: 5px;
     margin-bottom: 6rem;
     background-color: var(--tertiary-bg);
+  }
+
+  #owner_profile > div:first-child {
+    position: relative;
+    width: 450px;
   }
 
   #owner_profile img {
@@ -599,6 +646,88 @@ footer a {
   video {
     max-width: 800px;
     margin: auto auto 2rem;
+  }
+
+  /* EVENTS */
+
+  .timeline {
+    display: block;
+    position: relative;
+    margin: 0;
+  }
+
+  .timeline > div {
+    margin: 0;
+  }
+
+  .event_point {
+    position: absolute;
+    top: 2.5rem;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border: 8px solid white;
+    border-radius: 100%;
+    margin: -11px;
+  }
+
+  .line {
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background-color: black;
+    left: 50%;
+  }
+
+  .first_line {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    background-color: transparent;
+  }
+  .last_line {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-color: transparent;
+    height: 100px;
+  }
+
+  #events_container h2 {
+    margin-top: 1rem;
+  }
+
+  /* CONTACT */
+
+  .contact_bg {
+    background-image: url(../dummy_imgs/christina-wocintechchat-com-eF7HN40WbAQ-unsplash.jpg);
+    background-size: cover;
+    height: 500px;
+  }
+
+  #contact_page {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    margin: auto;
+    height: 400px;
+    width: 500px;
+  }
+
+  .contact {
+    position: absolute;
+    background-color: white;
+    padding: 1.5rem;
+    width: 600px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border-top: 1px solid var(--sub-color);
+    border-bottom: 1px solid var(--sub-color);
+  }
+
+  .contact form {
+    width: 60%;
+    padding: 0;
+  }
+
+  .contact label {
+    margin-bottom: 1.25rem;
   }
 
   /* FOOTER */
