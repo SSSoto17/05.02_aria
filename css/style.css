@@ -289,6 +289,68 @@ button {
   margin-bottom: 1.5rem;
 }
 
+/* ABOUT */
+
+#owner_profile {
+  background-color: var(--accent-color);
+  max-width: 1000px;
+  margin: auto;
+}
+
+#owner_profile img {
+  height: 500px;
+  object-fit: cover;
+}
+
+#owner_profile > div {
+  margin: 0;
+}
+
+#owner_profile > div:last-child {
+  padding: 2rem;
+}
+
+#owner_profile h1 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+#aria_profile {
+  max-width: 900px;
+  margin: auto;
+}
+
+#aria_profile img {
+  max-height: 150px;
+  object-fit: cover;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border: 3px solid var(--tertiary-bg);
+  border-radius: 5px;
+}
+
+#aria_profile img:last-child {
+  margin-top: 0;
+}
+
+#about_video h2 {
+  margin: 3rem auto 1rem;
+  font-family: "oswald", sans-serif;
+  max-width: 30ch;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#about_video p {
+  display: none;
+}
+
+video {
+  max-width: 800px;
+  margin: auto auto 2rem;
+}
+
 /* PRODUCTS_ORG */
 #hero_org {
   position: relative;
@@ -314,7 +376,7 @@ footer div {
 }
 
 footer img {
-  width: 8rem;
+  width: 75px;
   margin: auto;
   margin-bottom: 1rem;
 }
@@ -467,34 +529,29 @@ footer a {
 
   #owner_profile {
     position: relative;
-    background-color: var(--tertiary-bg);
-    height: 700px;
     border-radius: 5px;
+    margin-bottom: 6rem;
+    background-color: var(--tertiary-bg);
   }
 
   #owner_profile img {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
-    max-width: 600px;
-    max-height: 700px;
-    object-fit: cover;
+    top: 1.5rem;
+    left: 3rem;
+    max-width: 400px;
     border-radius: 5px;
+    border: 2px solid white;
   }
 
   #owner_profile > div:last-child {
-    padding: 2rem;
+    padding: 2rem 3rem;
+    padding-left: 0;
   }
 
   #owner_profile h1 {
-    color: var(--main-text);
+    color: black;
     text-transform: uppercase;
     font-size: 3.5rem;
-  }
-
-  #aria_profile {
-    max-width: 1000px;
-    margin: auto;
   }
 
   #aria_profile .grid_2-1 {
@@ -503,8 +560,7 @@ footer a {
 
   #aria_profile > div:first-child {
     background-color: var(--accent-color);
-    padding: 1.5rem;
-    padding-right: 50px;
+    padding: 1rem 3rem 2rem;
     border-radius: 5px;
     grid-column: 1/2 span;
     grid-row: 1;
@@ -523,13 +579,26 @@ footer a {
   }
 
   #aria_profile img {
-    max-height: 150px;
-    object-fit: cover;
-    margin-bottom: 1rem;
+    border: 2px solid white;
   }
 
   #aria_profile img:last-child {
-    margin-bottom: 0;
+    margin: 0;
+  }
+
+  #about_video h2 {
+    font-size: 2.5rem;
+  }
+
+  #about_video p {
+    display: block;
+    text-align: center;
+    margin: 0 auto 2rem;
+  }
+
+  video {
+    max-width: 800px;
+    margin: auto auto 2rem;
   }
 
   /* FOOTER */
