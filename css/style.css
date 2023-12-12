@@ -17,6 +17,10 @@ h2 {
   margin: 0.15rem 0 1rem;
 }
 
+h2 span {
+  font-weight: 700;
+}
+
 h3 {
   font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
@@ -30,7 +34,7 @@ h4 {
   font-weight: 700;
   font-size: 1.25rem;
   color: var(--main-text);
-  margin: 0.15rem 0 1rem;
+  margin: 0.15rem 0 2rem;
 }
 
 p {
@@ -104,14 +108,17 @@ ul li {
   color: white;
   background-color: black;
   border-radius: 0;
+  margin-top: 1rem;
 }
 
 /* INDEX */
 
 #hero {
   position: relative;
-  background-image: url(/dummy_imgs/COLOURBOX31158476.jpg);
+  background-image: url(../webp/jonhero.png);
   background-size: cover;
+  background-position: 85% 100%;
+  /* background-size: 125%; */
   height: 450px;
   padding: 1rem;
   margin-bottom: 0;
@@ -134,16 +141,16 @@ ul li {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 #companies ul li {
-  font-size: 1.5rem;
+  font-size: 2.25rem;
 }
 
 #principles {
   background-color: var(--tertiary-bg);
-  padding: 2rem 12rem;
+  padding: 2rem 10rem;
 }
 
 #principles h3 {
@@ -156,6 +163,10 @@ ul li {
 
 .product_card {
   border-radius: 5px;
+}
+
+.product_card img {
+  border-radius: 5px 5px 0 0;
 }
 
 .product_card > div {
@@ -183,10 +194,12 @@ ul li {
 #owner img {
   height: 500px;
   object-fit: cover;
+  border-radius: 5px 5px 0 0;
 }
 
 #owner > div {
   padding: 2rem;
+  margin: 0;
 }
 
 #owner h2 {
@@ -194,8 +207,10 @@ ul li {
   font-size: 1.5rem;
 }
 
-.info_box {
+#owner .info_box {
   background-color: var(--main-bg);
+  padding: 1.5rem;
+  border-radius: 0 0 5px 5px;
 }
 
 .info_box p {
@@ -216,7 +231,7 @@ ul li {
   right: 2rem;
   background-color: white;
   width: 500px;
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 .index_contact h1 {
@@ -531,18 +546,21 @@ video {
 /* FOOTER */
 
 footer {
-  padding: 0 1rem;
-  margin-top: 1rem;
+  padding: 1rem 0 1rem;
+  margin-top: 2rem;
 }
 
 footer div {
   margin-bottom: 1rem;
 }
 
-footer img {
+#footer_logo {
+  background-image: url(../svg/ariaicon.svg);
+  background-size: 100%;
+  aspect-ratio: 1 / 1;
   width: 75px;
   margin: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 footer ul {
@@ -623,6 +641,7 @@ footer a {
     max-width: 450px;
     height: 100%;
     object-fit: cover;
+    border-radius: 5px 0 0 5px;
   }
 
   .card_pink::after {
@@ -640,6 +659,10 @@ footer a {
 
   .card_blue {
     margin-left: auto;
+  }
+
+  .card_blue img {
+    border-radius: 0 5px 5px 0;
   }
   .card_blue::after {
     content: "";
@@ -660,24 +683,30 @@ footer a {
     margin-bottom: 5rem;
   }
 
+  #owner > div {
+    padding: 2rem 0 2rem 3rem;
+  }
+
   #owner img {
     height: 600px;
+    border-radius: 0;
   }
 
   #owner h2 {
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
 
-  .info_box {
+  #owner .info_box {
     position: absolute;
     bottom: -1.5rem;
-    left: 20%;
-    width: 600px;
+    left: 25%;
+    width: 450px;
+    border-radius: 0;
     transition: all 0.5s;
   }
 
   #owner:hover .info_box {
-    left: 22%;
+    left: 27%;
     bottom: -1rem;
   }
 
@@ -712,7 +741,7 @@ footer a {
   }
 
   #owner_profile > div:last-child {
-    padding: 2rem 3rem;
+    padding: 2rem;
     padding-left: 0;
   }
 
