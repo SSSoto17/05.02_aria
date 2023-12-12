@@ -144,7 +144,7 @@ nav {
   }
 
   #mobile_nav.active .line:nth-child(1) {
-    transform: rotate(45deg) translate(7px, 9px);
+    transform: rotate(45deg) translate(8px, 9.5px);
   }
 
   #mobile_nav.active .line:nth-child(2) {
