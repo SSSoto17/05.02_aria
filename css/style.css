@@ -339,8 +339,7 @@ button {
 #aria_profile img {
   max-height: 150px;
   object-fit: cover;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0.75rem 0 0.5rem;
   border: 3px solid var(--tertiary-bg);
   border-radius: 5px;
 }
@@ -420,7 +419,7 @@ video {
 }
 
 #video_org h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 #video_org video {
@@ -502,14 +501,22 @@ video {
   border: 3px solid var(--accent-color);
 }
 
-#events_container > div {
-  margin-bottom: 0;
+#events_container .grid_1-1-3 {
+  gap: 0;
 }
 
 #events_container h2 {
-  margin-bottom: 0;
+  width: 160px;
+  margin: 1rem 0 0;
   letter-spacing: 0.2rem;
   font-weight: 600;
+  font-size: 2.25rem;
+  text-align: left;
+}
+
+#events_container h4 {
+  margin: 0;
+  font-size: 1.6rem;
 }
 
 #events_container p {
@@ -518,10 +525,6 @@ video {
 
 .timeline {
   display: none;
-}
-
-.date {
-  width: 200px;
 }
 
 /* CONTACT */
@@ -533,9 +536,17 @@ video {
 }
 
 #contact_page li {
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
   font-family: "varela", sans-serif;
   font-size: 1.1rem;
   color: var(--main-bg);
+  margin-bottom: 0.5rem;
+}
+
+#contact_page li:last-child {
+  margin: 0;
 }
 
 .contact form {
@@ -773,6 +784,7 @@ footer a {
   #aria_profile p {
     color: white;
     max-width: 80%;
+    margin-top: 0;
   }
 
   #aria_profile img {
@@ -842,16 +854,33 @@ footer a {
     bottom: 2rem;
   }
 
+  #video_org h2 {
+    font-size: 1.8rem;
+  }
+
+  #video_org div {
+    max-height: 150px;
+    margin: 2rem 0;
+  }
+
   #kontakt_org {
     padding: 2rem 10rem;
   }
 
   /* EVENTS */
 
+  #events_container > div {
+    margin-bottom: 0;
+  }
+
   .timeline {
     display: block;
     position: relative;
     margin: 0;
+  }
+
+  #events_container h2 {
+    margin-left: auto;
   }
 
   .timeline > div {
@@ -877,18 +906,14 @@ footer a {
     left: 50%;
   }
 
-  .first_line {
+  #events_container > div:first-child .line {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
     background-color: transparent;
   }
-  .last_line {
+  #events_container > div:last-child .line {
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     background-color: transparent;
     height: 100px;
-  }
-
-  #events_container h2 {
-    margin-top: 1rem;
   }
 
   /* CONTACT */
