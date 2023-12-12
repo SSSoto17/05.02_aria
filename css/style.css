@@ -129,6 +129,10 @@ ul li {
   bottom: 2rem;
 }
 
+#hero h2 {
+  color: black;
+}
+
 #companies {
   padding: 2rem 1rem 3rem;
 }
