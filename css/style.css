@@ -115,9 +115,9 @@ ul li {
 
 #hero {
   position: relative;
-  background-image: url(../webp/jonhero.png);
+  background-image: url(../webp/jonhero.webp);
   background-size: cover;
-  background-position: 85% 100%;
+  background-position: 75% 100%;
   /* background-size: 125%; */
   height: 450px;
   padding: 1rem;
