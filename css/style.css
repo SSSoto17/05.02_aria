@@ -100,8 +100,8 @@ ul li {
 }
 
 .btn_ghost {
-  color: var(--main-bg);
-  border: 3px solid var(--main-bg);
+  color: var(--accent-color);
+  border: 3px solid var(--accent-color);
 }
 
 .btn_owner {
