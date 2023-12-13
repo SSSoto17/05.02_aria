@@ -866,6 +866,7 @@ footer a {
 
   #hero_org {
     overflow: hidden;
+    background-image: none;
   }
 
   #hero_org > div {
