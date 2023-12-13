@@ -373,9 +373,17 @@ video {
 
 #hero_org {
   position: relative;
-  background-image: url(/dummy_imgs/austin-distel-rxpThOwuVgE-unsplash.jpg);
-  background-size: cover;
+  /* background-image: url(/dummy_imgs/austin-distel-rxpThOwuVgE-unsplash.jpg);
+  background-size: cover; */
   height: 450px;
+  overflow: hidden;
+}
+
+#hero_org video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 #hero_org > div {
@@ -854,12 +862,21 @@ footer a {
     z-index: -1;
   }
 
+  #hero_org {
+    overflow: hidden;
+  }
+
   #hero_org > div {
     margin: 0;
     width: auto;
     position: absolute;
     right: 3rem;
     bottom: 2rem;
+  }
+
+  #hero_org video {
+    min-width: 100%;
+    min-height: 100%;
   }
 
   #video_org h2 {
