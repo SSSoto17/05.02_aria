@@ -225,7 +225,7 @@ ul li {
   display: none;
   position: relative;
   height: 700px;
-  background-image: url(../dummy_imgs/austin-distel-h1RW-NFtUyc-unsplash.jpg);
+  background-image: url(../webp/kontaktjon.webp);
   background-size: cover;
 }
 
@@ -753,6 +753,7 @@ footer a {
     max-width: 400px;
     border-radius: 5px;
     border: 2px solid white;
+    background-color: #ebd5bd;
   }
 
   #owner_profile > div:last-child {
@@ -795,6 +796,9 @@ footer a {
     border: 2px solid white;
   }
 
+  #aria_profile img:first-child {
+    object-position: 50% 40%;
+  }
   #aria_profile img:last-child {
     margin: 0;
   }
