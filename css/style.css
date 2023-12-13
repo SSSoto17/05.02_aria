@@ -374,7 +374,7 @@ video {
 
 #hero_org {
   position: relative;
-  background-image: url(/dummy_imgs/austin-distel-rxpThOwuVgE-unsplash.jpg);
+  background-image: url(/dummy_imgs/austin-distel-rxpThOwuVgE-unsplash.webp);
   background-size: cover;
   height: 450px;
   overflow: hidden;
@@ -947,7 +947,7 @@ footer a {
   /* CONTACT */
 
   .contact_bg {
-    background-image: url(../dummy_imgs/christina-wocintechchat-com-eF7HN40WbAQ-unsplash.jpg);
+    background-image: url(../dummy_imgs/christina-wocintechchat-com-eF7HN40WbAQ-unsplash.webp);
     background-size: cover;
     height: 500px;
   }
