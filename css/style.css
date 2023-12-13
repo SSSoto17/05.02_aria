@@ -313,7 +313,7 @@ button {
 /* ABOUT */
 
 #owner_profile {
-  background-color: var(--accent-color);
+  background-color: var(--tertiary-bg);
   max-width: 1000px;
   margin: auto;
 }
@@ -321,6 +321,8 @@ button {
 #owner_profile img {
   height: 100%;
   object-fit: cover;
+  background-color: #ebd5bd;
+  border-bottom: 3px solid white;
 }
 
 #owner_profile > div {
@@ -750,7 +752,6 @@ footer a {
   #owner_profile {
     border-radius: 5px;
     margin-bottom: 6rem;
-    background-color: var(--tertiary-bg);
   }
 
   #owner_profile > div:first-child {
@@ -765,7 +766,6 @@ footer a {
     max-width: 400px;
     border-radius: 5px;
     border: 2px solid white;
-    background-color: #ebd5bd;
   }
 
   #owner_profile > div:last-child {
